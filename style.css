@@ -1,3 +1,141 @@
+.magra-regular {
+  font-family: "Magra", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.magra-bold {
+  font-family: "Magra", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.jaro-uniquifier{
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+a{
+    font-family: "jaro";
+    color: #0f535b;
+    font-size: 30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.header-logo{
+    max-width: 177px;
+}
+
+.pc-nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.list-1{
+    padding-right: 30px;
+}
+
+.top{
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}
+
 h1{
-    background-color: red;
+    font-family: "Magra";
+    font-size: 64px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h2{
+    font-family: "jaro";
+    font-size: 40px;
+}
+
+th{
+    font-family: "jaro";
+    font-size: 40px;
+}
+
+p{
+    font-family: "Noto Sana JP";
+    font-size: 30px;
+    margin: 0;
+}
+
+td{
+    font-family: "Noto Sana JP";
+    font-size: 30px;
+}
+
+.mission{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.mission-img{
+    max-width: 409px;
+}
+
+.mission-text{
+    background-color: #bfdded;
+    padding: 16px 24px;
+}
+
+.vision{
+    display: flex;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.vision-img{
+    max-width: 409px;
+}
+
+.vision-text{
+    background-color: #bfdded;
+    padding: 16px 24px;
+}
+
+.value{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.value-img{
+    max-width: 409px;
+    height: auto;
+}
+
+.value-text{
+    background-color: #bfdded;
+    padding: 16px 24px;
+    max-width: 100%;
+}
+
+th{
+    padding: 10px 60px 10px 10px;
+}
+
+td{
+    padding: 10px;
+}
+
+.footer-logo{
+    margin: 50px auto 30px;
+    max-width: 8%;
+    display: block;
 }
